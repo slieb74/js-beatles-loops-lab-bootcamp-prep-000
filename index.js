@@ -22,6 +22,6 @@ function iLoveTheBeatles(n) {
     emptyArr[n] = "I love the Beatles!";
     n++;
   }
-  while (n <= 15); 
-  return emptyArr
+  while (n < 15); 
+  return emptyArr[n-1]
 }
